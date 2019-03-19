@@ -54,3 +54,65 @@
 	-fx-font-size: 28pt;
 	-fx-font-alignment: center;
 }
+
+.heading {
+	-fx-font-size: 28pt;
+	-fx-font-alignment: left;
+	-fx-fill: #800000;
+}
+
+.scroll-pane, .browseGrid {
+	-fx-background-color: #444;
+}
+
+.browseGrid {
+	-fx-background-color: #444;
+}
+
+.poster {
+	-fx-alignment: center;
+}
+
+.poster:hover {
+	-fx-opacity: 80%;
+}
+
+.poster01 {
+	-fx-image: url("../images/poster01_ROTK.jpg");
+}
+
+.poster02 {
+	-fx-image: url("../images/poster02_CM.jpg");
+}
+
+.poster03 {
+	-fx-image: url("../images/poster03_Creed.jpg");
+}
+
+.poster04 {
+	-fx-image: url("../images/poster04_JE3.jpg");
+}
+
+.poster05 {
+	-fx-image: url("../images/poster05_TE2.jpg");
+}
+
+.poster06 {
+	-fx-image: url("../images/poster06_RH.jpg");
+}
+
+.poster07 {
+	-fx-image: url("../images/poster07_MasterZ.jpg");
+}
+
+.poster08 {
+	-fx-image: url("../images/poster08_HTTYD.jpg");
+}
+
+.poster09 {
+	-fx-image: url("../images/poster09_TDK.jpg");
+}
+
+.poster10 {
+	-fx-image: url("../images/poster10_RH.png");
+}
