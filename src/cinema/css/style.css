@@ -1,0 +1,56 @@
+* {
+	-fx-font-family: "Trebuchet MS";
+	-fx-text-fill: #fff;
+}
+
+.vbox {
+	-fx-background-color: #333;
+}
+
+.navButton {
+	-fx-background-color: #333;
+	-fx-text-fill: #fff;
+	-fx-font-size: 12pt;
+}
+
+.navButton:hover {
+	-fx-background-color: #444;	
+}
+
+.navLogo {
+	-fx-image: url("../images/logo.png");
+}
+
+.navImg {
+}
+
+.navImg1 {
+	-fx-image: url("../images/3d-glasses.png");
+}
+
+.navImg2 {
+	-fx-image: url("../images/clapperboard.png");
+}
+
+.navImg3 {
+	-fx-image: url("../images/tickets.png");
+}
+
+.homePane {
+	-fx-background-image: url("../images/cinema.jpg");
+	-fx-background-size: cover;
+}
+
+.homePane *{
+	-fx-fill: #fff;
+}
+
+.homeHeading {
+	-fx-font-size: 48pt;
+	-fx-text-alignment: center;
+}
+
+.homeText {
+	-fx-font-size: 28pt;
+	-fx-font-alignment: center;
+}

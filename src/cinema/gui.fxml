@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="540" prefWidth="960.0" styleClass="anchorPane" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cinema.GUIController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="540.0" prefWidth="128.0" styleClass="vbox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="832.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="96.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" styleClass="navLogo">
+               <VBox.margin>
+                  <Insets bottom="16.0" top="16.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="64.0" prefWidth="128.0" styleClass="navButton" text="Home">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <styleClass>
+                        <String fx:value="navImg" />
+                        <String fx:value="navImg1" />
+                     </styleClass>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="128.0" styleClass="navButton" text="Browse">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <styleClass>
+                        <String fx:value="navImg" />
+                        <String fx:value="navImg2" />
+                     </styleClass>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="10.0" layoutY="74.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="128.0" styleClass="navButton" text="Book">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <styleClass>
+                        <String fx:value="navImg" />
+                        <String fx:value="navImg3" />
+                     </styleClass>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" prefHeight="200.0" prefWidth="200.0" styleClass="homePane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="homeHeading" text="Cinema Enterpriso" textAlignment="CENTER" wrappingWidth="577.875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="homeText" text="Fantastic Film Experience" textAlignment="CENTER" />
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
