@@ -66,7 +66,7 @@
 }
 
 .browseGrid {
-	-fx-background-color: #444;
+	-fx-background-color: linear-gradient(from 75% 50% to 0% 50%, #444, #331214);
 }
 
 .poster {
@@ -74,7 +74,7 @@
 }
 
 .poster:hover {
-	-fx-opacity: 80%;
+	-fx-opacity: 75%;
 }
 
 .poster01 {
@@ -115,4 +115,19 @@
 
 .poster10 {
 	-fx-image: url("../images/poster10_RH.png");
+}
+
+.labels {
+	-fx-font-size: 16pt;
+	-fx-text-fill: #800000;
+}
+
+.combo * {
+	-fx-background-color: #444;
+	-fx-font-size: 8pt;
+}
+
+.info {
+	-fx-font-size: 8pt;
+	-fx-text-fill: #800000;
 }

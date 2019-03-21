@@ -14,16 +14,14 @@ import javafx.scene.image.Image;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("gui.fxml"));
         primaryStage.setTitle("Cinema Enterpriso");
         primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("images/logo.png")));
         primaryStage.setScene(new Scene(root, Color.rgb(51, 51, 51)));
         primaryStage.setResizable(false);
-        //primaryStage.initStyle(StageStyle.TRANSPARENT);
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
